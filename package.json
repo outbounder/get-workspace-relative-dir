@@ -1,6 +1,6 @@
 {
   "name": "get-workspace-relative-dir",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Prints workspace relative directory",
   "main": "index.js",
   "bin": {
