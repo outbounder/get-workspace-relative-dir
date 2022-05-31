@@ -1,0 +1,29 @@
+{
+  "name": "get-workspace-relative-dir",
+  "version": "0.0.0",
+  "description": "Prints workspace relative directory",
+  "main": "index.js",
+  "bin": {
+    "get-workspace-relative-dir": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release-major": "npm version major && npm publish",
+    "release-patch": "npm version patch && npm publish",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Boris Filipov",
+  "license": "MIT",
+  "dependencies": {
+    "@npmcli/map-workspaces": "^2.0.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/outbounder/get-workspace-relative-dir.git"
+  },
+  "bugs": {
+    "url": "https://github.com/outbounder/get-workspace-relative-dir/issues"
+  },
+  "homepage": "https://github.com/outbounder/get-workspace-relative-dir#readme"
+}
